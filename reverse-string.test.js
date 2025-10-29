@@ -1,4 +1,4 @@
-import { reverseString } from "./capitalize.js";
+import { reverseString } from "./reverse-string.js";
 
 test("reverses a regular string", () => {
   expect(reverseString("dog")).toBe("god");
